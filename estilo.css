@@ -76,7 +76,10 @@ hr{
 
 }
 .publicidad img{
-    max-height: min-content;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80;
 }
 
 .bandeja{
