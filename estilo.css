@@ -5,10 +5,13 @@
     box-sizing: border-box;
     font-family: cursive
 
+
 }    
 
 body {
+    background-color: rgb(250, 245, 239);
     margin: 40px
+    
 }
 
 hr{
@@ -16,7 +19,7 @@ hr{
 }
 
 .logo{
-    max-width: 50px;
+    max-width: 90px;
 }
 /*Estilos del menu*/
 
@@ -46,15 +49,15 @@ hr{
 }
 
 .activo{
-    background-color: rgb(34, 36, 160);
-    color: rgb(202, 203, 255);
+    background-color: rgb(72, 51, 39);
+    color: rgb(247, 216, 199);
     border: 0px solid;
     border-radius: 5px;
 
 
 }
 .btn-menu:hover{
-    color:  rgb(124, 126, 255);
+    color:  rgb(160, 58, 3);
 }
 
 .activo:hover{
@@ -92,6 +95,7 @@ hr{
     border: 2px solid rgb(189, 189, 189);
     border-radius: 5px;
     padding: 10px;
+    height: auto;  
 }
 
 .tarjeta h3{
@@ -99,14 +103,16 @@ hr{
 }
 
 .tarjeta a{
-    color: rgb(151, 91, 207);
+    color: rgb(189, 90, 25);
     text-decoration: none;
     margin: 0 10px;
 }
 
+
+
 /*Estilo del pie*/
 .pie{
-    background-color:   rgb(34, 36, 160);
+    background-color:   rgb(72, 51, 39);
     color: white;
     border: 1px solid;
     border-radius: 5px;
