@@ -70,6 +70,7 @@ hr{
 }
 
 .publicidad{
+    padding: 10px;
     display: flex;
     align-content: center;
     margin-bottom: 30px; 
@@ -78,6 +79,8 @@ hr{
     color: rgb(158, 75, 42);
 
 }
+
+
 .publicidad img{
     display: block;
     margin: 0 auto;
@@ -108,6 +111,13 @@ hr{
     margin: 0 10px;
 }
 
+/*estilo de galeria*/
+
+h1{
+    color: rgb(209, 144, 109);
+    text-align: center;
+}
+
 .tarjeta img{
     display: block;
     margin: 0 auto;
@@ -116,13 +126,34 @@ hr{
     width: 80%;*/
 }
 
+
 .galeria{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
+    padding: 40px;
 }
 
 
+
+/*estilo de video*/
+
+.tarjeta video{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.libro{
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.videos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}   
 
 
 /*Estilo del pie*/
