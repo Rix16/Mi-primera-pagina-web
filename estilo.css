@@ -44,7 +44,7 @@ hr{
     text-decoration: none;
     font-weight: bold;
     color: black;
-    padding: 15px;
+    padding: 25px;
     cursor: pointer;
 }
 
@@ -52,8 +52,7 @@ hr{
     background-color: rgb(72, 51, 39);
     color: rgb(247, 216, 199);
     border: 0px solid;
-    border-radius: 5px;
-
+    border-radius: 25px;
 
 }
 .btn-menu:hover{
@@ -76,6 +75,7 @@ hr{
     margin-bottom: 30px; 
     flex-direction: column;
     align-items: center;
+    color: rgb(158, 75, 42);
 
 }
 .publicidad img{
@@ -111,9 +111,17 @@ hr{
 .tarjeta img{
     display: block;
     margin: 0 auto;
+
     /*max-width: 100%;
     width: 80%;*/
 }
+
+.galeria{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
 
 
 
