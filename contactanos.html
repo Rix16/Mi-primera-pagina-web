@@ -1,31 +1,66 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Mi pagina Web </title>
     <link rel="stylesheet" href="estilo.css">
 </head>
+
 <body>
     <nav class="menu-nav">
         <img src="src/Imagenes/logo.libro.webp" alt="" class="logo">
         <ul class="menu">
             <li><a href="index.html" class="btn-menu">Inicio</a></li>
-            <li><a href="galeria.html" class="btn-menu">libros</a></li>
-            <li><a href="videos.html" class="btn-menu" >Videos</a></li>
-            <li><a href="noticias.html" class="btn-menu" >Noticias</a></li>
+            <li><a href="galeria.html" class="btn-menu">Catálogo</a></li>
+            <li><a href="videos.html" class="btn-menu">Videos</a></li>
+            <li><a href="noticias.html" class="btn-menu">Noticias</a></li>
             <li><a href="contactanos.html" class="btn-menu activo">Contactanos</a></li>
         </ul>
     </nav>
-<hr>
-<div class="Contenido">
-
-</div>
-<footer>
     <hr>
-    <div class="pie">
-        Todos los derechos reservados a MinTic
+    <div class="Contenido">
+        <h2 class="Contactame">Contactame: </h2>
+        <form action="">
+            <label for="nom">Nombre:</label>
+            <input type="text" id="nom" name="nom" value="" required>
+            <label for="ema">Correo electronico:</label>
+            <input type="text" name="" id="ema" required>
+            <label for="text">¿Necesitas ayuda? dinos aqui que necesitas:</label>
+            <input type="text" name="mensaje" id="mensaje" required>
+            <input class="button" type="submit" value="enviar">
+            <input class="button" type_="reset" value="Cancelar">
+        </form>
+
+        <h2 class="contac">Mas informacion...</h2>
+        <h3 class="respuesta">¿Qué métodos de pago aceptan?</h3>
+        <h4>Respuesta:</h4>
+        <p>Aceptamos pagos con tarjeta de crédito y débito (Visa, MasterCard, American Express), PayPal y transferencias bancarias. Si tienes algún problema con tu pago, por favor contáctanos. </p></div>
+
+        <h3 class="respuesta"  >¿Puedo devolver un libro si no me gusta o si cambio de opinión?</h3>
+        <h4>Respuesta:</h4>
+        <p>Sí, aceptamos devoluciones dentro de los 30 días posteriores a la compra, siempre y cuando el libro no haya sido abierto ni dañado. Por favor, revisa nuestra política de devoluciones en el pie de página para más detalles. </p></div>
+
+        <h3 class="respuesta" >¿Hacen envíos a todo el país?</h3>
+        <h4>Respuesta:</h4>
+        <p> Sí, realizamos envíos a todo el país. Al finalizar tu compra, se te mostrará el costo de envío según tu ubicación.</p></div>
+
+        <h3 class="respuesta" >¿Cuánto tiempo tarda en llegar mi pedido?</h3>
+        <h4>Respuesta:</h4>
+        <p> El tiempo de entrega depende de tu ubicación. Los envíos nacionales suelen tardar entre 3 y 7 días hábiles. Recibirás un correo de confirmación con el número de seguimiento una vez que tu pedido haya sido enviado.</p></div>
+
+        <h3 class="respuesta" >¿Qué hago si no encuentro el libro que estoy buscando?</h3>
+        <h4>Respuesta:</h4>
+        <p>Si no encuentras el libro que buscas, puedes utilizar nuestro formulario de contacto o enviarnos un correo electrónico. ¡Estaremos encantados de ayudarte a encontrarlo!</p></div>
+
     </div>
-</footer>
+    <footer>
+        <hr>
+        <div class="pie">
+            Todos los derechos reservados a MinTic
+        </div>
+    </footer>
 </body>
+
 </html>

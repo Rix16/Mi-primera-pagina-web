@@ -1,30 +1,28 @@
 /*Estilo para el cuerpo*/
-* {   
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: cursive
-
-
-}    
+}
 
 body {
     background-color: rgb(250, 245, 239);
     margin: 40px
-    
 }
 
-hr{
+hr {
     margin: 15px 0;
 }
 
-.logo{
+.logo {
     max-width: 90px;
 }
+
 /*Estilos del menu*/
 
 .menu-nav {
-   
+
     display: flex;
     align-items: center;
 
@@ -32,7 +30,7 @@ hr{
 
 
 
-.menu{
+.menu {
     display: flex;
     list-style: none;
     margin: 0 50px;
@@ -40,7 +38,8 @@ hr{
     gap: 20px;
 
 }
-.btn-menu{
+
+.btn-menu {
     text-decoration: none;
     font-weight: bold;
     color: black;
@@ -48,32 +47,33 @@ hr{
     cursor: pointer;
 }
 
-.activo{
+.activo {
     background-color: rgb(72, 51, 39);
     color: rgb(247, 216, 199);
     border: 0px solid;
     border-radius: 25px;
 
 }
-.btn-menu:hover{
-    color:  rgb(160, 58, 3);
+
+.btn-menu:hover {
+    color: rgb(160, 58, 3);
 }
 
-.activo:hover{
+.activo:hover {
     color: rgb(255, 255, 255);
 }
 
 /*estilo del contenido PG-inicio*/
-.contenido{
+.contenido {
 
     margin: 20px;
 }
 
-.publicidad{
+.publicidad {
     padding: 10px;
     display: flex;
     align-content: center;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     flex-direction: column;
     align-items: center;
     color: rgb(158, 75, 42);
@@ -81,31 +81,31 @@ hr{
 }
 
 
-.publicidad img{
+.publicidad img {
     display: block;
     margin: 0 auto;
     max-width: 100%;
     width: 80%;
 }
 
-.bandeja{
+.bandeja {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 }
 
-.tarjeta{
+.tarjeta {
     border: 2px solid rgb(189, 189, 189);
     border-radius: 5px;
     padding: 10px;
-    height: auto;  
+    height: auto;
 }
 
-.tarjeta h3{
+.tarjeta h3 {
     color: rgb(88, 88, 92);
 }
 
-.tarjeta a{
+.tarjeta a {
     color: rgb(189, 90, 25);
     text-decoration: none;
     margin: 0 10px;
@@ -113,12 +113,12 @@ hr{
 
 /*estilo de galeria*/
 
-h1{
+h1 {
     color: rgb(209, 144, 109);
     text-align: center;
 }
 
-.tarjeta img{
+.tarjeta img {
     display: block;
     margin: 0 auto;
 
@@ -127,7 +127,7 @@ h1{
 }
 
 
-.galeria{
+.galeria {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
@@ -138,27 +138,110 @@ h1{
 
 /*estilo de video*/
 
-.tarjeta video{
+.tarjeta video {
     display: block;
     margin: 0 auto;
 }
 
 
-.libro{
+.libro {
     max-width: 500px;
     max-height: 400px;
 }
 
-.videos{
+.videos {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-}   
+}
+
+/*Estilo de contactame*/
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+    min-width: 100%;
+    min-height: 30%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    border: 2ps rgb(56, 8, 0);
+
+}
+
+input[type="text"]:hover,
+input [type="email"],
+input[type="number"]:hover {
+    border: 2px rgb(83, 30, 5) solid;
+    box-shadow: 5px 5px 10px grey;
+
+}
+
+
+.button {
+    background-color: #4a2904;
+    color: rgb(255, 255, 255);
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inlineblock;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #968680;
+    border-radius: 5px;
+
+}
+
+.button:hover {
+    border: 2px gray solid;
+    box-shadow: 5px 5px 5px #9e8984;
+    color: white;
+}
+
+.contac {
+    color: #cc6f06;
+    padding: 20px;
+
+}
+
+.respuesta {
+    color: rgb(82, 74, 63);
+    padding: 10px;
+}
+
+/*tabla*/
+h3{
+    padding: 20px;
+    color: #612a05;
+    font-style: unset;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 500px;
+    background: rgb(255, 239, 225);
+}
+
+
+tr {
+    border: 1px solid black;
+    text-align: left;
+    padding: 50px;
+}
+
+.titul {
+    color: #251400;
+    box-sizing: border-box;
+    text-shadow: #251400;
+
+}
+
 
 
 /*Estilo del pie*/
-.pie{
-    background-color:   rgb(72, 51, 39);
+.pie {
+    background-color: rgb(72, 51, 39);
     color: white;
     border: 1px solid;
     border-radius: 5px;
